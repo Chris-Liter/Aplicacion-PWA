@@ -1,0 +1,12 @@
+
+<div class="navbar navbar-expand-lg">
+    
+    <div>
+        <h1>Aplicacion PWA</h1>
+        <ul class="navbar-nav">
+            <li *ngFor="let i of pages" class="nav-item">
+                <a class="nav-link" [routerLink]="i.path">{{i.titulo}}</a>
+            </li>
+        </ul>
+    </div>
+</div>

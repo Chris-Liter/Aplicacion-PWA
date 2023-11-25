@@ -1,0 +1,40 @@
+.navbar {
+    background-color: #0d6efd; /* Cambia esto al color que prefieras */
+    overflow: hidden;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+h1 {
+    font-size: 2em; /* Tamaño de la fuente */
+    color: #3498db; /* Color del texto (puedes cambiarlo según tus preferencias) */
+    text-transform: uppercase; /* Convertir el texto a mayúsculas */
+    font-family: 'Arial', sans-serif; /* Tipo de fuente */
+    margin: 0; /* Elimina el margen por defecto */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
