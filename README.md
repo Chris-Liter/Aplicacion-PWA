@@ -10,7 +10,7 @@ Uso de este Framework para la visualizacion agradable del proyecto.
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-Para ejecutar primero escribir "npm install" para instalar todas las dependencias, luego "ng serve -o" para ejecutar.
+Para ejecutar primero escribir "npm install" para instalar todas las dependencias, luego `ng serve -o` para ejecutar.
 
-Se instalo "ng add @angular/pwa" y permitio su ejecución e instalación de la aplicacion PWA como una aplicacion de escritorio, tanto en el dispositivo movil, como en el computador.
+Se instalo `ng add @angular/pwa` y permitio su ejecución e instalación de la aplicacion PWA como una aplicacion de escritorio, tanto en el dispositivo movil, como en el computador.
 
