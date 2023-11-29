@@ -3,7 +3,7 @@ Trabajo realizado con Angular [Angular CLI](https://github.com/angular/angular-c
 
 
 ## Descripción del Proyecto
-Este proyecto, titulado "Trabajo Mobile-PC", es una aplicación web desarrollada utilizando Angular CLI versión 16.0.0. La interfaz visual se mejoró con el uso de Bootstrap, un framework front-end. La aplicación se ha configurado como una Progressive Web App (PWA), ofreciendo una experiencia de usuario fluida tanto en dispositivos móviles como en computadoras.
+Este proyecto, es una aplicación web desarrollada utilizando Angular CLI versión 16.0.0. La interfaz visual se mejoró con el uso de Bootstrap, un framework front-end. La aplicación se ha configurado como una Progressive Web App (PWA), ofreciendo una experiencia de usuario fluida tanto en dispositivos móviles como en computadoras.
 
 Para explorar la aplicación web. (https://trabajo-mobile-pc.web.app/) por este link puede acceder directo a la pagina guardada en Firebase.
 
