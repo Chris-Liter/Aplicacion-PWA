@@ -17,20 +17,24 @@ export class EditComponent {
     this.route.params.subscribe(params => {
       console.log(params)
       if(params['id']){
-        this.loadPersona(params['id'])
+        this.loadTask(params['id'])
       }
     })
   }
-
-  loadPersona(uid: string){
+/**
+ * Este metodo cargara el objeto de la coleccion que se quiere editar
+ */
+  loadTask(uid: string){
     this.db.getTarea(uid).subscribe(data => {
       console.log(data)
       this.task = <any>data
     })
   }
+  /**
+   Tarea entera que se va a editar con el metodo creado en el Servicio CrudService
+   */
   modify(){
     this.db.modifyTarea(this.task)
-    this.task = new Task()
     this.router.navigate(['/pages/list'])
   }
 }

@@ -2,6 +2,7 @@
     <div>
         <ul class="navbar-nav">
             <li *ngFor="let i of tareas" class="nav-item">
+                <!--Por cada elemento que se lista, cada elemento tendra su propio boton eliminar y modificar-->
                 <a  class="nav-link tarea-item">
                     <span class="etiqueta">Etiqueta: {{i.etiqueta}}</span>,
                     <span class="nota">Nota: {{i.nota}}</span>,

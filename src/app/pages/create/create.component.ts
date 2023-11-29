@@ -14,6 +14,9 @@ export class CreateComponent {
 
   }
 
+  /*
+  Se llama al servicio para guardar la nota
+  */
   save(){
     this.fire.saveTarea(this.task)
     this.task = new Task()
